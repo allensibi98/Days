@@ -1,0 +1,38 @@
+.view-container {
+    width: 100vw;
+    height: 100vh;
+    margin: 5px;
+}
+
+.view-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 2px;
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.item1 {
+    grid-column: span 2;
+}
+
+.item2 {
+    grid-row: span 2;
+}
+
+.item3 {
+    /* Custom styling for a specific item */
+    background-color: #a0a0a0;
+    color: white;
+}
+
+.divs-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 10px;
+    /* grid-gap: 10px; */
+}

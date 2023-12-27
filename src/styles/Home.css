@@ -1,0 +1,12 @@
+.app-container {
+    display: flex;
+    
+}
+.asideBar {
+    width: 20vw;
+    height: 100vh;
+}
+.mainContent {
+    width: 80vw;
+    height: 100vh;
+}

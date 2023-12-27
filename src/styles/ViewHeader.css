@@ -1,0 +1,19 @@
+.view-header {
+    height: 6vh;
+}
+.header-container {
+    margin: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: red;
+}
+.view-header-logo {
+    padding: 3px;
+    width: 20%;
+}
+.view-header-navitems {
+    padding: 3px;
+    width: 60%;
+}
